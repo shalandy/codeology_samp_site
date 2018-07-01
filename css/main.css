@@ -92,56 +92,6 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #fed136; }
 
-#mainNav {
-  background-color: #c1dbea; }
-  #mainNav .navbar-toggler {
-    font-size: 14px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: black;
-    border: 0;
-    background-color: #c1dbea;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  #mainNav .navbar-brand {
-    color: black;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: white; }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
-    font-weight: 400;
-    padding: 0.75em 0;
-    letter-spacing: 1px;
-    color: black;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: white; }
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent; }
-    #mainNav .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
-    #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.5em 1.4em !important; }
-    #mainNav.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: #c1dbea; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; } }
-
 header.masthead {
   text-align: center;
   color: white;
@@ -156,6 +106,15 @@ header.masthead {
   background-size: cover; }
   header.masthead .darkblue {
     background-color: #486A90;
+  }
+  header.masthead .darkerblue {
+    background-color: #344D6B;
+  }
+  header.masthead .seablue {
+    background-color: #255D6E;
+  }
+  header.masthead .mint {
+    background-color: #77B09C;
   }
   header.masthead .intro-text {
     padding-left: 50px;
@@ -172,7 +131,7 @@ header.masthead {
       font-size: 25px;
       line-height: 50px;
       font-family: 'Playfair Display', serif;
-      font-weight: 500;
+      font-weight: 400;
       padding-right: 11rem;
       padding-top: 1rem; }
 
@@ -233,6 +192,24 @@ header.masthead {
     background-image: url("../img/flowerbox/about.png");
     background-size: 16rem;
     margin-left: 1rem;
+}
+
+.projects  {
+    background-image: url("../img/flowerbox/projects.png");
+    background-size: 16rem;
+    margin-left: 3rem;
+}
+
+.gallery  {
+    background-image: url("../img/flowerbox/gallery.png");
+    background-size: 16rem;
+    margin-left: 3rem;
+}
+
+.contact  {
+    background-image: url("../img/flowerbox/contact.png");
+    background-size: 19rem;
+    margin-left: 4rem;
 }
 
 
@@ -365,6 +342,10 @@ header.masthead {
     text-decoration: none;
     line-height: 5rem;
   }
+  .nav-box h4 {
+    text-align: center;
+    line-height: 4rem;
+  }
   .nav-box .link {
     text-align: left;
     margin-left: 4rem;
@@ -382,6 +363,22 @@ header.masthead {
     background-image: url("../img/box/gallery.png"); }
   .nav-box .ncontact {
     background-image: url("../img/box/contact.png"); }
+
+.sidelink {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  line-height: 4rem;
+}
+  .sidelink a {
+      color: white;
+  }
+
+.galalign {
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
 
 footer {
   padding: 25px 0;
