@@ -24,7 +24,7 @@ h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 section {
-  padding: 10px 0; }
+  padding: 20px 20px; }
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -62,17 +62,6 @@ section {
     border-color: #fec810 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
-
-.btn-blue {
-  background-color: #00c9c6;
-  border-color: #00c9c6;
-  color: white;}
-  .btn-blue:active, .btn-blue:focus, .btn-blue:hover {
-    background-color: #00b5b2 !important;
-    border-color: #00b5b2 !important;
-    color: white; }
-  .btn-blue:active, .btn-bul:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
 ::-moz-selection {
@@ -326,6 +315,7 @@ header.masthead {
         transform: rotate(90deg);
         background-color: #212529; }
 
+/*squashed at 992px*/
 
 .nav-box {
   margin-bottom: 50px;
@@ -348,14 +338,14 @@ header.masthead {
   }
   .nav-box .link {
     text-align: left;
-    margin-left: 4rem;
     background-repeat: no-repeat;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
+    padding-left: 3rem;
     background-size: auto 100%;
-    background-position: center left;
+    background-position: center center;
   }
-  .nabout {
+  .nav-box .nabout {
     background-image: url("../img/box/about.png"); }
   .nav-box .nprojects {
     background-image: url("../img/box/projects.png"); }
@@ -363,7 +353,35 @@ header.masthead {
     background-image: url("../img/box/gallery.png"); }
   .nav-box .ncontact {
     background-image: url("../img/box/contact.png");
-    background-position: center center;}
+    padding-left: 0rem;}
+
+.flowerhover {
+  background-color: transparent;
+}
+.flowerhover:hover {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-right: 2rem;
+  background-size: auto 20rem;
+  opacity: 0.9; }
+.flowerhover.fabout {
+  background-color: transparent; }
+.flowerhover.fabout:hover {
+  background-image: url("../img/flower/about.png"); }
+.flowerhover.fprojects {
+  background-color: transparent; }
+.flowerhover.fprojects:hover {
+  background-image: url("../img/flower/projects.png");
+  background-size: auto 17rem; }
+.flowerhover.fgallery {
+  background-color: transparent; }
+.flowerhover.fgallery:hover {
+  background-image: url("../img/flower/gallery.png"); }
+.flowerhover.fcontact {
+  background-color: transparent; }
+.flowerhover.fcontact:hover {
+  background-image: url("../img/flower/contact.png");}
 
 .sidelink {
   font-size: 2rem;
@@ -420,7 +438,7 @@ ul.social-buttons {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     color: white;
-    border-radius: 100%;
+    border-radius: 30%;
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
