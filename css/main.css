@@ -127,7 +127,7 @@ header.masthead {
       line-height: 30px;
       font-family: 'Playfair Display', serif;
       font-weight: 400;
-      padding-right: 11rem;
+      padding-right: 4rem;
       padding-top: 1rem; }
 
       @media (min-width: 443px) {
@@ -143,12 +143,9 @@ header.masthead {
           padding-top: 80px;
           padding-bottom: 80px; }
           header.masthead .intro-text .intro-heading {
+            padding-right: 11rem;
             font-size: 45px;
             line-height: 52px; }
-          header.masthead .intro-text .social {
-            padding: 25px 0;
-            text-align: center;
-            }
           }
 
 @media (min-width: 1000px) {
@@ -158,13 +155,18 @@ header.masthead {
     padding-left: 100px;
     padding-right: 100px; }
     header.masthead .intro-text .intro-heading {
+      font-size: 51px;
+      line-height: 68px; }}
+
+@media (min-width: 1200px) {
+  header.masthead .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px; }
+    header.masthead .intro-text .intro-heading {
       font-size: 67px;
-      line-height: 70px; }
-    header.masthead .intro-text .social {
-      padding: 25px 0;
-      text-align: center;
-      padding-right: 100px;
-      }}
+      line-height: 70px; }}
 
 .flower_box {
   background-repeat: no-repeat;
@@ -207,24 +209,62 @@ header.masthead {
 
 }}
 
+
 .projects  {
     background-image: url("../img/flowerbox/projects.png");
-    background-size: 16rem;
+    background-size: 10rem;
     margin-left: 3rem;
+    padding-right: 7rem;
 }
+
+@media (min-width: 768px) {
+  header.masthead .intro-text .intro-heading {
+      padding-right: 8rem;
+  }
+  .projects {
+  background-size: 13rem;
+}}
+
+@media (min-width: 1000px) {
+  .projects {
+  background-size: 16rem;
+
+}}
+
 
 .gallery  {
     background-image: url("../img/flowerbox/gallery.png");
-    background-size: 16rem;
+    background-size: 10rem;
     margin-left: 3rem;
 }
 
+@media (min-width: 768px) {
+  .gallery {
+  background-size: 13rem;
+}}
+
+@media (min-width: 1000px) {
+  .gallery {
+  background-size: 16rem;
+
+}}
+
 .contact  {
     background-image: url("../img/flowerbox/contact.png");
-    background-size: 19rem;
+    background-size: 11rem;
     margin-left: 4rem;
 }
 
+@media (min-width: 768px) {
+  .contact {
+  background-size: 15rem;
+}}
+
+@media (min-width: 1000px) {
+  .contact {
+  background-size: 19rem;
+
+}}
 
 #portfolio .portfolio-item {
   right: 0;
@@ -355,7 +395,7 @@ header.masthead {
     font-weight: 100;
     color: black;
     text-decoration: none;
-    line-height: 5rem;
+    line-height: 3.2rem;
   }
   .nav-box h4 {
     text-align: center;
@@ -454,14 +494,32 @@ header.masthead {
   background-image: url("../img/flower/contact.png");}
 
 .sidelink {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  line-height: 4rem;
+  line-height: 1.4rem;
 }
   .sidelink a {
       color: white;
   }
+
+@media (min-width: 768px) {
+.sidelink {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}}
+
+@media (min-width: 1000px) {
+.sidelink {
+  font-size: 1.7rem;
+  line-height: 4rem;
+}}
+
+@media (min-width: 1200px) {
+.sidelink {
+  font-size: 2rem;
+  line-height: 4rem;
+}}
 
 .gal-align {
   display: flex;
