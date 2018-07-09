@@ -133,13 +133,13 @@ header.masthead {
       @media (min-width: 443px) {
         header.masthead .intro-text {
           padding: 50px;
-          padding-left: 8rem;}
+          padding-left: 3rem;}
       }
 
       @media (min-width: 768px) {
         header.masthead .intro-text {
-          padding-left: 155px;
-          padding-right: 150px;
+          padding-left: 5px;
+          padding-right: 0px;
           padding-top: 80px;
           padding-bottom: 80px; }
           header.masthead .intro-text .intro-heading {
@@ -494,19 +494,23 @@ header.masthead {
   background-image: url("../img/flower/contact.png");}
 
 .sidelink {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  line-height: 1.4rem;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
 }
   .sidelink a {
       color: white;
   }
+}
 
 @media (min-width: 768px) {
 .sidelink {
   font-size: 1.5rem;
-  line-height: 3rem;
+  line-height: 4rem;
 }}
 
 @media (min-width: 1000px) {
@@ -520,6 +524,19 @@ header.masthead {
   font-size: 2rem;
   line-height: 4rem;
 }}
+
+@media (max-width: 1000px) {
+  .navmid {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navmid {
+    width: 30rem;
+  }
+}
+
 
 .gal-align {
   display: flex;
