@@ -40,6 +40,10 @@ https://www.figma.com/proto/HFaj1O54H1tGpIJ27P14D8j1/Codeology-Sample-Website?sc
 - Goal: Members will begin development with a bootstrap demo and have a basic website structure for each page done by the end of the first dev week 
 - Tools: HTML/CSS, Bootstrap components
 
+<h5>EXAMPLE</h5>
+
+- Around [here](https://github.com/shalandy/codeology_samp_site/commit/e2542e637865fdb603460c2030a7143be4e2f1cc) in the git commit history
+
 ## Week 4
 ✨✨✨🍒🍒🍒✨✨✨
 - Goal: Members will add the finishing touches: any fancier interaction/animation effects with CSS/JS, mobile and tablet responsiveness, as well as deploy their sites on Netlify. Option to buy their own domain name!
