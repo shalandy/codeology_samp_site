@@ -48,3 +48,23 @@ https://www.figma.com/proto/HFaj1O54H1tGpIJ27P14D8j1/Codeology-Sample-Website?sc
 ✨✨✨🍒🍒🍒✨✨✨
 - Goal: Members will add the finishing touches: any fancier interaction/animation effects with CSS/JS, mobile and tablet responsiveness, as well as deploy their sites on Netlify. Option to buy their own domain name!
 - Tools: CSS/JS, Bootstrap, Netlify, NameCheap/GoDaddy
+
+<h5>EXAMPLE</h5>
+
+- Lightbox for projects
+
+<div align="center"> 
+    <img src="https://github.com/shalandy/codeology_samp_site/blob/master/sample_sc/lightbox.png"/> 
+</div>
+
+- Responsiveness (pc/tablet/mobile)
+
+<div align="center"> 
+    <img src="https://github.com/shalandy/codeology_samp_site/blob/master/sample_sc/resp.png"/> 
+</div>
+
+- Hover effects
+
+<div align="center"> 
+    <img src="https://github.com/shalandy/codeology_samp_site/blob/master/sample_sc/hover.gif"/> 
+</div>
